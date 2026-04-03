@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Experiment 2 | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Personal Portfolio</div>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I am <span>Rashi Sachan!</span></h1>
+            <p>2nd Year B.Tech IT Student at JSS University, Noida</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-wrapper">
+                <div class="about-text">
+                    <p>I am a 2nd-year B.Tech IT student at JSS University, Noida, exploring diverse areas of technology through hands-on projects. I have practical experience in developing interactive 2D games using Unity and C#.</p>
+                    <p>These projects have strengthened my problem-solving, logic-building, and software development skills. I also have a keen interest in Web Development, and I am currently learning and exploring more about frontend skills, backend skills, and database systems.</p>
+                    <div class="skills">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span>
+                        <span>Github</span><span>DBMS</span><span>Unity Engine</span><span>C</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="avatar">👩‍💻</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="icon">🐤</div>
+                    <h3>Flappy Bird</h3>
+                    <p>A 2D game developed in Unity using C#. The player controls a bird that must navigate through moving obstacles while collecting coins.</p>
+                    <span class="tech">Unity/C#</span>
+                </div>
+                <div class="project-card">
+                    <div class="icon">📢🐔</div>
+                    <h3>Screaming Bird Game</h3>
+                    <p>A 2D game where the player controls a bird using their voice. The bird moves upward when the player makes a sound.</p>
+                    <span class="tech">Unity/C#</span>
+                </div>
+                <div class="project-card">
+                    <div class="icon">🌐</div>
+                    <h3>DevOps Agent</h3>
+                    <p>An AI agent that automatically fixes bugs from GitHub Issues — clones the repo, identifies the bug, generates a fix, and opens a PR.</p>
+                    <span class="tech">Python/HTML</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+                <div id="formStatus"></div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Made by: Rashi Sachan</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
